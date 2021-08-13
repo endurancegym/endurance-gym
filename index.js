@@ -39,12 +39,10 @@ L.tileLayer(
   }
 ).addTo(mymap);
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
+const toggle= document.querySelector('.toggle-btn');
+const navLinks = document.querySelector('.nav-links');
 
 
+toggle.addEventListener('click' ,()=> {
+	navLinks.classList.toggle('active')
+})
