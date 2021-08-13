@@ -108,10 +108,10 @@ section:nth-child(even) {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.header-navigation .nav-icon {
+/*.header-navigation .nav-icon {
   display: none;
   border: 1px solid #fff;
-}
+}*/
 @media only screen and (max-width: 50em) {
   /*.header-navigation .nav-icon {
     display: block;
