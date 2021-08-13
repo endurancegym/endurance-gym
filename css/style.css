@@ -86,11 +86,11 @@ section:nth-child(even) {
   list-style: none;
   font-weight: 700;
 }
-@media only screen and (max-width: 50em) {
+/*@media only screen and (max-width: 50em) {
   .header-navigation ul {
     display: none;
   }
-}
+}*/
 .header-navigation ul li {
   padding-left: 2.8rem;
 }
@@ -104,7 +104,7 @@ section:nth-child(even) {
 .header-navigation ul li a:hover {
   border-bottom: 2px solid var(--color-yellow);
 }
-.header-navigation .logo {
+/*.header-navigation .logo {
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -116,7 +116,7 @@ section:nth-child(even) {
   .header-navigation .nav-icon {
     display: block;
   }
-}
+}*/
 
 .heading {
   font-weight: 700;
