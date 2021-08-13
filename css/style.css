@@ -40,14 +40,14 @@ html {
   scroll-behavior: smooth;
 }
 
-/*body {
+body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.6;
   color: #fff;
   overflow-y: scroll;
-}*/
+}
 
 .container {
   max-width: clamp(50rem, 85vw, 114rem);
@@ -134,13 +134,13 @@ section:nth-child(even) {
 
 
 
-html,body{
+/*html,body{
 	margin:0;
 	padding: 0;
 	overflow-x: hidden;
 	font-family: 'Raleway', sans-serif;
 	scroll-behavior: smooth;
-}
+}*/
 
 .logo-txt{
 	color: #c2a43b;
