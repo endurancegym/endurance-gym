@@ -89,7 +89,7 @@ section:nth-child(even) {
 @media only screen and (max-width: 50em) {
   .header-navigation ul {
    /* display: none;*/
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
@@ -116,14 +116,15 @@ section:nth-child(even) {
   border: 1px solid #fff;
 }*/
 @media only screen and (max-width: 50em) {
-  /*.header-navigation .nav-icon {
-    display: block;
-  }*/
-  .header-navigation ul li {position: relative;}
   .header-navigation .nav-icon {
-    position: absolute;
+    /*display: block;*/
+  position: absolute;
     right: 0;
     top: 0;
+  }
+ 
+  .header-navigation .nav-icon {
+    
     }
 }
 
