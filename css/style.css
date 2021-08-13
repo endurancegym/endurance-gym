@@ -88,7 +88,7 @@ section:nth-child(even) {
 }
 @media only screen and (max-width: 50em) {
   .header-navigation ul {
-   /* display: none;
+   /* display: none;*/
     position: relative;
     right: 0;
     top: 0;
@@ -117,7 +117,7 @@ section:nth-child(even) {
 }
 @media only screen and (max-width: 50em) {
   .header-navigation .nav-icon {
-    /*display: block;
+    /*display: block;*/
   position: absolute;
     right: 0;
     top: 0;
