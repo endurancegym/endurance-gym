@@ -715,7 +715,7 @@ ul{
 
 .section-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../img/header-bg-img.jpg');
+    url('../img/header-bg-img.jpeg');
   background-size: cover;
   background-position: top;
   height: max(100vh, 60rem);
