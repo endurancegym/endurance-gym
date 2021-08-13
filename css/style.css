@@ -240,6 +240,7 @@ ul{
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  background-color: #99FF99;
 }
 .btn__primary {
   background-color: var(--color-yellow);
