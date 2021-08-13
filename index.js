@@ -1,4 +1,4 @@
-import AOS from 'aos';
+/*import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import L from 'leaflet';
@@ -38,7 +38,7 @@ L.tileLayer(
       'pk.eyJ1IjoibWFudTEyMzQ1Njc4OSIsImEiOiJja29tajdwMzQwZHRiMzFsNjRiNW9zdG1qIn0.3epHzR4kLOhVoS3ejiItbg',
   }
 ).addTo(mymap);
-
+*/
 const toggle= document.querySelector('.toggle-btn');
 const navLinks = document.querySelector('.nav-links');
 
