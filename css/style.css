@@ -40,14 +40,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/*body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.6;
   color: #fff;
   overflow-y: scroll;
-}
+}*/
 
 .container {
   max-width: clamp(50rem, 85vw, 114rem);
@@ -117,7 +117,7 @@ section:nth-child(even) {
 }
 @media only screen and (max-width: 50em) {
   .header-navigation .nav-icon {
-    /*display: block;*/
+    /*display: block;
   position: absolute;
     right: 0;
     top: 0;
@@ -128,6 +128,96 @@ section:nth-child(even) {
     }
 }
 */
+
+
+
+
+
+
+html,body{
+	margin:0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.logo-txt{
+	color: #c2a43b;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;	
+}
+
+.logo-txt{
+	margin-left: 1em;
+}
+
+.nav-class{
+	display: flex;
+	background-color: #fff;
+}
+
+#sticky{
+	position: sticky;
+	top: 0;
+	
+}
+
+.nav-links{
+	margin-left: auto;
+}
+
+.nav-list{
+	display: flex;
+}
+
+#nav-link{
+	padding: 1em;
+}
+
+#nav-link:hover{
+	color: #c2a43b;
+	transition: all 0.2s ease-in;	
+}
+
+.toggle-btn{
+	position: absolute;
+	top: 0.75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-btn .bar{
+	height: 3px;
+	width: 100%;
+	background-color: #000;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .heading {
   font-weight: 700;
   text-transform: uppercase;
@@ -648,74 +738,3 @@ section:nth-child(even) {
 
 
 
-
-html,body{
-	margin:0;
-	padding: 0;
-	overflow-x: hidden;
-	font-family: 'Raleway', sans-serif;
-	scroll-behavior: smooth;
-}
-
-.logo-txt{
-	color: #c2a43b;
-}
-
-a{
-	color: inherit;
-	text-decoration: none;
-}
-
-ul{
-	list-style-type: none;	
-}
-
-.logo-txt{
-	margin-left: 1em;
-}
-
-.nav-class{
-	display: flex;
-	background-color: #fff;
-}
-
-#sticky{
-	position: sticky;
-	top: 0;
-	
-}
-
-.nav-links{
-	margin-left: auto;
-}
-
-.nav-list{
-	display: flex;
-}
-
-#nav-link{
-	padding: 1em;
-}
-
-#nav-link:hover{
-	color: #c2a43b;
-	transition: all 0.2s ease-in;	
-}
-
-.toggle-btn{
-	position: absolute;
-	top: 0.75rem;
-	right: 1rem;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
-}
-
-.toggle-btn .bar{
-	height: 3px;
-	width: 100%;
-	background-color: #000;
-	border-radius: 10px;
-}
