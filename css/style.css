@@ -113,9 +113,15 @@ section:nth-child(even) {
   border: 1px solid #fff;
 }
 @media only screen and (max-width: 50em) {
-  .header-navigation .nav-icon {
+  /*.header-navigation .nav-icon {
     display: block;
-  }
+  }*/
+  .header-navigation ul li {position: relative;}
+  .header-navigation .nav-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
 }
 
 .heading {
