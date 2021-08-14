@@ -163,7 +163,7 @@ ul{
 .nav-class{
 	display: flex;
 	background-color: black;
-	width: 1000px;
+	width: 100%;
 } 
 
 #sticky{
