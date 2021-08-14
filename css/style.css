@@ -751,11 +751,11 @@ colour:#fff;
 .topnav {
   overflow: hidden;
  background-color: #000;
-float: right;
+float: left;
 }
 
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: right;
@@ -794,7 +794,7 @@ float: right;
     top: 0;
   }
   .topnav.responsive a {
-    float: right;
+    float: left;
     display: block;
     text-align: center;
   }
