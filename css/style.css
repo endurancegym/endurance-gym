@@ -159,11 +159,11 @@ ul{
 	margin-left: 1em;
 }
 
-<!--.nav-class{
+.nav-class{
 	display: flex;
 	background-color: black;
-	width: 100%;
-} -->
+	width: 1000px;
+} 
 
 #sticky{
 	position: sticky;
