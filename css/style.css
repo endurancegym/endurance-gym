@@ -73,7 +73,7 @@ section:nth-child(even) {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
 }
 
-.header-navigation {
+/*.header-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +88,7 @@ section:nth-child(even) {
 }
 @media only screen and (max-width: 50em) {
   .header-navigation ul {
-   /* display: none;*/
+   /* display: none;
     position: relative;
     right: 0;
     top: 0;
@@ -117,7 +117,7 @@ section:nth-child(even) {
 }
 @media only screen and (max-width: 50em) {
   .header-navigation .nav-icon {
-    /*display: block;*/
+    /*display: block;
   position: absolute;
     right: 0;
     top: 0;
@@ -128,7 +128,7 @@ section:nth-child(even) {
     }
 }
 
-
+*/
 
 
 
@@ -742,4 +742,18 @@ colour:#fff;
 }
 
 
+
+
+
+
+
+
+ .navbar-brand {
+                    font-size: 23px;
+                    font-family: comfortaa;
+                }
+
+                .navbar-nav {
+                    font-size: 18px;
+                }
 
