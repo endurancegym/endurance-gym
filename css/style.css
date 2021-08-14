@@ -162,6 +162,7 @@ ul{
 .nav-class{
 	display: flex;
 	background-color: black;
+	width: 100%;
 }
 
 #sticky{
@@ -754,7 +755,7 @@ colour:#fff;
   overflow: hidden;
  background-color: #000;
  float: right;
-  width: 100%;
+  width: 550px;
   margin: auto;
 }
 
