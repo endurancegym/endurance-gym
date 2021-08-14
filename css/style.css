@@ -750,8 +750,7 @@ colour:#fff;
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
-opacity: 0.1;
+  background-color: transparent;
 }
 
 .topnav a {
