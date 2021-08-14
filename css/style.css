@@ -751,6 +751,7 @@ colour:#fff;
 .topnav {
   overflow: hidden;
  background-color: #000;
+float: right;
 }
 
 .topnav a {
