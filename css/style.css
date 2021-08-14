@@ -796,7 +796,7 @@ float: right;
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: right;
+    text-align: center;
   }
 }
 
