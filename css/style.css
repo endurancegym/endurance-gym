@@ -246,10 +246,12 @@ ul{
   background-color: #99FF99;
   color: #000;
   border: 1px solid var(--color-yellow);
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 .btn__primary:hover {
-  background-color: var(--color-yellow-dark);
+  background-color: var(--color-yellow-light);
+  border: 1px solid var(--color-yellow-light);
+  color: #000;
 }
 .btn__secondary {
   background-color: #99FF99;
