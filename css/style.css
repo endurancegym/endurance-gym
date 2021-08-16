@@ -162,7 +162,7 @@ ul{
 
 .nav-class{
 	display: flex;
-	background-color: black;
+	background-color: rgb(0,0,0,.4);
 	width: 100%;
 } 
 
