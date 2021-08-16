@@ -829,6 +829,6 @@ colour:#fff;
 
 
 quote{padding:3em;background-color:#000;color:#fff}.quote-main{font-size:2rem;color:#c2a43b;margin-bottom:1.1em}.author,.quote-main,h2{text-align:center}
-@media (max-width:540px){.quote-main{font-size:1.3rem}.service-text{font-size2rem}}@media(max-width:404px){.service-text{font-size:.8rem}}@media (max-width:384px){.quote-main{font-size:2rem}}
+@media (max-width:540px){.quote-main{font-size:1.3rem}.service-text{font-size 2rem}}@media(max-width:404px){.service-text{font-size:.8rem}}@media (max-width:384px){.quote-main{font-size:2rem}}
 
 
