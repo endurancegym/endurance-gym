@@ -38,7 +38,11 @@ L.tileLayer(
       'pk.eyJ1IjoibWFudTEyMzQ1Njc4OSIsImEiOiJja29tajdwMzQwZHRiMzFsNjRiNW9zdG1qIn0.3epHzR4kLOhVoS3ejiItbg',
   }
 ).addTo(mymap);
-
+var preloader = document.getElementById('loader');
+      function preLoaderHandler(){
+          preloader.style.display = 'none';
+      }
+      
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
